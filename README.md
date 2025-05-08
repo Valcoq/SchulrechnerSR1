@@ -34,8 +34,7 @@ Der hier entwickelte Rechner ist **keine 1:1-Rekonstruktion**, sondern eine mode
        
     4. Rechner starten:
        python Taschenrechner_V0."Versionsnummer einfügen".py
-
-   
+  
 🧭 Ausblick: 
 Das Projekt befindet sich noch in der Entwicklung. Geplante Ergänzungen:
   - Visuelle Feinanpassungen
@@ -46,18 +45,6 @@ Das Projekt befindet sich noch in der Entwicklung. Geplante Ergänzungen:
 Dieser Rechner war für mich als Kind ein Fenster in eine große Welt. 
 Es ist eine Hommage an diese Zeit, mit viel Liebe zum Detail 😊
 
-
 🤝 Kontakt
 Wenn du Feedback hast oder mitmachen willst, freue ich mich über deine Nachricht auf GitHub!
 github.com/Valcoq
-
----
-
-### ✅ Nächster Schritt:
-
-Du kannst diese Datei in deinem Projektordner als `README.md` speichern. Danach:
-
-```bash
-git add README.md
-git commit -m "Add heartfelt README with project background"
-git push
