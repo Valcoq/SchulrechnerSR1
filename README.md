@@ -33,7 +33,7 @@ Der hier entwickelte Rechner ist **keine 1:1-Rekonstruktion**, sondern eine mode
        pip install -r requirements.txt
        
     4. Rechner starten:
-       python rechner.py
+       python Taschenrechner_V0."Versionsnummer einfügen".py
 
    
 🧭 Ausblick: 
