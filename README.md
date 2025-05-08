@@ -15,6 +15,17 @@ Der hier entwickelte Rechner ist **keine 1:1-Rekonstruktion**, sondern eine mode
 - Lokale Speicherung von Rechenergebnissen (optional geplant)
 - Geplante Feinschliffe & Politur folgen noch!
 
+## ⚠️ Hinweis zur GUI-Datei
+
+Aus Sicherheitsgründen wurde die generierte GUI-Datei (`rechner_ui.py`) temporär aus dem Repository entfernt.  
+Die ursprüngliche Version enthielt fest codierte Bildpfade, die nicht portabel oder datenschutzkonform waren.
+
+Die GUI wird aktuell überarbeitet.  
+In der Zwischenzeit findest du hier ein paar Screenshots der Anwendung:
+
+![Screenshot 1](assets/screenshots/screenshot1.png)
+![Screenshot 2](assets/screenshots/screenshot2.png)
+
 ---
 
 ## 🛠️ Installation
