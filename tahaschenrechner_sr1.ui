@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>401</width>
+    <height>726</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>401</width>
+    <height>726</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>401</width>
+    <height>661</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Tahaschenrechnr</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/main/icon.png</normaloff>:/main/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{ background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/png/tr_blank3.png) }</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::TabShape::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pb_pro">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>379</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/pz_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_p_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_ko">
+    <property name="geometry">
+     <rect>
+      <x>173</x>
+      <y>622</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/ko_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_k_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_0">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>622</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/0_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_0_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_1">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>562</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/1_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_1_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_2">
+    <property name="geometry">
+     <rect>
+      <x>173</x>
+      <y>562</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/2_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_2_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_3">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>562</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/3_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_3_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_4">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>501</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/4_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_4_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_5">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>501</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/5_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_5_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_6">
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>501</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/6_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_6_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_7">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>441</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/7_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_7_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_8">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>441</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/8_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_8_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_9">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>441</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/9_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_9_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_ig">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>318</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/ig_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_ig_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_in">
+    <property name="geometry">
+     <rect>
+      <x>34</x>
+      <y>318</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/in_button.png); border-radius: 100  }QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_in_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_sin">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>258</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/sin_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_sin_button.png); border-radius: 100}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_cos">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>258</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/cos_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_cos_button.png); border-radius: 100}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_tan">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>258</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/tan_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_tan_button.png); border-radius: 100}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_f">
+    <property name="geometry">
+     <rect>
+      <x>34</x>
+      <y>258</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/f_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_f_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_wur">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>379</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/wur_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_wur_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_x2">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>379</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/x2_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_x2_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_yx">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>379</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/yx_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_yx_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_1x">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>379</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/1x_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_1x_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_eex">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>441</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/eex_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_eex_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_sub">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>441</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/sub_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_sub_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_pi">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>501</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/pi_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_pi_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_div">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>501</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/div_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_div_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_vor">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>562</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/vor_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_vor_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_mul">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>562</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/mul_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_mul_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_erg">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>622</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/erg_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_erg_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_ad">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>622</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/ad_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_ad_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_cec">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>622</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/ce_c_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_cec_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_mr">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>318</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/mr_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_mr_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_xm">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>318</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/xm_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_xm_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_m">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>318</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/m_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_m_button.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_ka">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>258</y>
+      <width>20</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/ka_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_ka_button.png); border-radius: 100}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_kg">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>258</y>
+      <width>20</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/kg_button.png); border-radius: 100  } QPushButton:pressed {background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten_p/png/p_kg_button.png); border-radius: 100}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>58</y>
+      <width>316</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>316</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>316</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>8514oem</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/png/lcd_display2.png)}
+QLabel {
+border-radius: 100;
+color: rgb(42, 65, 65);
+font: &quot;8514oem&quot;; 
+font-color: color: rgb(42, 65, 65)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_f_2">
+    <property name="geometry">
+     <rect>
+      <x>57</x>
+      <y>196</y>
+      <width>40</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>40</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>40</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/off_switch.png); border-radius: 100  } QPushButton:checked{background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/on_switch.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_f_3">
+    <property name="geometry">
+     <rect>
+      <x>285</x>
+      <y>196</y>
+      <width>60</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>60</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/deg_switch.png); border-radius: 100  } QPushButton:checked{background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/Tasten/png/grd_switch.png); border-radius: 100  }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labellcd">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>92</y>
+      <width>316</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>316</width>
+      <height>55</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>316</width>
+      <height>55</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>8514oem</family>
+      <pointsize>40</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LayoutDirection::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background-image: url(C:/Users/sgeld/Pictures/Taschenrechner/Schulrechner_SR1/png/lcd_display2.png)}
+QLabel {
+border-radius: 100;
+color: rgb(42, 65, 65);
+font: &quot;8514oem&quot;; 
+font-color: color: rgb(42, 65, 65)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="AmenuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>401</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>401</width>
+     <height>0</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
