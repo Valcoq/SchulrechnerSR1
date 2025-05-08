@@ -23,7 +23,7 @@ Die ursprüngliche Version enthielt fest codierte Bildpfade, die nicht portabel 
 Die GUI wird aktuell überarbeitet.  
 In der Zwischenzeit findest du hier ein paar Screenshots der Anwendung:
 
-![Screenshot 1](assets/screenshots/screenshot1.jpg)
+![Screenshot 1](screenshot1.jpg)
 
 ---
 
