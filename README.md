@@ -21,7 +21,7 @@ Aus Sicherheitsgründen wurde die generierte GUI-Datei (`rechner_ui.py`) tempor�
 Die ursprüngliche Version enthielt fest codierte Bildpfade, die nicht portabel oder datenschutzkonform waren.
 
 Die GUI wird aktuell überarbeitet.  
-In der Zwischenzeit findest du hier ein paar Screenshots der Anwendung:
+In der Zwischenzeit findest du hier einen Screenshots der Anwendung:
 
 ![Screenshot 1](screenshot1.jpg)
 
